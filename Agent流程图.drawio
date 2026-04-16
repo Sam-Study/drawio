@@ -1,0 +1,351 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="kBv5hTTndHAUWNrwsVR_">
+    <mxGraphModel dx="2162" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1320" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#0F172A;" value="典型流程图：宇树科技人形机器人产品与近期进展" vertex="1">
+          <mxGeometry height="30" width="780" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#64748B;" value="用户请求：先输出一版 IM 摘要；若后续沉淀出更完整或更准确的数据，再主动补发更新版。" vertex="1">
+          <mxGeometry height="18" width="980" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#A5B4FC;fontColor=#4338CA;fontSize=11;" value="Agent 执行节点" vertex="1">
+          <mxGeometry height="28" width="120" x="1470" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#FDBA74;fontColor=#C2410C;fontSize=11;" value="人工关口节点" vertex="1">
+          <mxGeometry height="28" width="120" x="1602" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#C4B5FD;fontColor=#7C3AED;fontSize=11;" value="沉淀关系" vertex="1">
+          <mxGeometry height="28" width="104" x="1734" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="100" parent="1" style="swimlane;rounded=1;arcSize=16;html=1;startSize=34;fillColor=#FBFCFE;strokeColor=#E2E8F0;fontColor=#334155;fontSize=15;container=1;" value="在线即时响应链" vertex="1">
+          <mxGeometry height="920" width="760" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="101" parent="100" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#64748B;" value="当前会话优先即时响应，不插入人工确认、深度开发、正式沉淀等事后动作" vertex="1">
+          <mxGeometry height="18" width="560" x="22" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="110" parent="100" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontSize=14;" value="用户 / 需求提出方" vertex="1">
+          <mxGeometry height="78" width="340" x="210" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="111" parent="100" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEF4FF;strokeColor=#A5B4FC;fontColor=#0F172A;fontSize=14;" value="统一入口Agent（对外交互）" vertex="1">
+          <mxGeometry height="78" width="340" x="210" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="112" parent="100" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFF7ED;strokeColor=#FDBA74;fontColor=#0F172A;fontSize=15;fontStyle=1;" value="总控编排" vertex="1">
+          <mxGeometry height="78" width="340" x="210" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="113" parent="100" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=14;" value="命中已有资产 / 快速补数" vertex="1">
+          <mxGeometry height="78" width="340" x="210" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="114" parent="100" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#F0FDF4;strokeColor=#86EFAC;fontColor=#0F172A;fontSize=14;" value="在线轻量生产" vertex="1">
+          <mxGeometry height="78" width="340" x="210" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="115" parent="100" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFFBEB;strokeColor=#FCD34D;fontColor=#0F172A;fontSize=14;" value="在线轻量保障" vertex="1">
+          <mxGeometry height="78" width="340" x="210" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="116" parent="100" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FAF5FF;strokeColor=#C4B5FD;fontColor=#0F172A;fontSize=14;" value="即时交付&#xa;首版 IM 摘要" vertex="1">
+          <mxGeometry height="86" width="340" x="210" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="117" parent="100" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ECFDF5;strokeColor=#86EFAC;fontColor=#047857;fontSize=11;" value="先响应，再决定是否值得后续增强" vertex="1">
+          <mxGeometry height="24" width="260" x="250" y="888" as="geometry" />
+        </mxCell>
+        <mxCell id="900" edge="1" parent="100" source="110" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="111" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="901" edge="1" parent="100" source="111" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="112" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="902" edge="1" parent="100" source="112" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="113" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="903" edge="1" parent="100" source="113" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="114" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="904" edge="1" parent="100" source="114" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="115" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="905" edge="1" parent="100" source="115" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="116" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="200" parent="1" style="swimlane;rounded=1;arcSize=16;html=1;startSize=34;fillColor=#FBFCFE;strokeColor=#E2E8F0;fontColor=#334155;fontSize=15;container=1;" value="离线增强闭环" vertex="1">
+          <mxGeometry height="920" width="1020" x="840" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="201" parent="200" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#64748B;" value="反思沉淀 Agent 先记录问题与机会，再通过跨任务聚合识别高频共性 / 高业务价值主题；只有满足条件时才选择性触发增强任务。" vertex="1">
+          <mxGeometry height="18" width="820" x="22" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="210" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#F5F3FF;strokeColor=#C4B5FD;fontColor=#0F172A;fontSize=14;" value="反思沉淀Agent" vertex="1">
+          <mxGeometry height="74" width="250" x="90" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="211" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEF4FF;strokeColor=#A5B4FC;fontColor=#0F172A;fontSize=14;" value="跨任务聚合" vertex="1">
+          <mxGeometry height="74" width="250" x="90" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="212" parent="200" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#94A3B8;fontColor=#0F172A;fontSize=13;" value="增强优先级判断" vertex="1">
+          <mxGeometry height="110" width="220" x="105" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="213" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontColor=#475569;fontSize=11;" value="否：仅沉淀规则 / Skill / 记忆 / 案例" vertex="1">
+          <mxGeometry height="46" width="250" x="90" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="220" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEF4FF;strokeColor=#A5B4FC;fontColor=#0F172A;fontSize=13;" value="选择性增强任务" vertex="1">
+          <mxGeometry height="74" width="220" x="450" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="221" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEF4FF;strokeColor=#A5B4FC;fontColor=#0F172A;fontSize=13;" value="需求分析Agent" vertex="1">
+          <mxGeometry height="74" width="220" x="450" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="222" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFF7ED;strokeColor=#FDBA74;fontColor=#0F172A;fontSize=13;" value="业务负责人审批" vertex="1">
+          <mxGeometry height="74" width="220" x="450" y="298" as="geometry" />
+        </mxCell>
+        <mxCell id="223" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEF4FF;strokeColor=#A5B4FC;fontColor=#0F172A;fontSize=13;" value="数据开发Agent" vertex="1">
+          <mxGeometry height="74" width="220" x="450" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="224" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEF4FF;strokeColor=#A5B4FC;fontColor=#0F172A;fontSize=13;" value="代码评审Agent" vertex="1">
+          <mxGeometry height="74" width="220" x="450" y="526" as="geometry" />
+        </mxCell>
+        <mxCell id="225" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEF4FF;strokeColor=#A5B4FC;fontColor=#0F172A;fontSize=13;" value="测试验证Agent" vertex="1">
+          <mxGeometry height="74" width="220" x="450" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="226" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEF4FF;strokeColor=#A5B4FC;fontColor=#0F172A;fontSize=13;" value="数据治理Agent" vertex="1">
+          <mxGeometry height="74" width="220" x="450" y="754" as="geometry" />
+        </mxCell>
+        <mxCell id="230" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEF4FF;strokeColor=#A5B4FC;fontColor=#0F172A;fontSize=13;" value="发布准备Agent" vertex="1">
+          <mxGeometry height="74" width="220" x="760" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="231" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFF7ED;strokeColor=#FDBA74;fontColor=#0F172A;fontSize=13;" value="发布负责人上线" vertex="1">
+          <mxGeometry height="74" width="220" x="760" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="232" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEF4FF;strokeColor=#A5B4FC;fontColor=#0F172A;fontSize=13;" value="资产沉淀Agent" vertex="1">
+          <mxGeometry height="74" width="220" x="760" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="233" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEF4FF;strokeColor=#A5B4FC;fontColor=#0F172A;fontSize=13;" value="更新推送Agent" vertex="1">
+          <mxGeometry height="74" width="220" x="760" y="472" as="geometry" />
+        </mxCell>
+        <mxCell id="234" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ECFDF5;strokeColor=#86EFAC;fontColor=#065F46;fontSize=13;fontStyle=1;" value="主动补发更新版" vertex="1">
+          <mxGeometry height="86" width="220" x="760" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="235" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFF7ED;strokeColor=#FDBA74;fontColor=#0F172A;fontSize=12;" value="领域专家确认&#xa;（仅必要时）" vertex="1">
+          <mxGeometry height="62" width="280" x="730" y="586" as="geometry" />
+        </mxCell>
+        <mxCell id="236" parent="200" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFF7ED;strokeColor=#FDBA74;fontColor=#0F172A;fontSize=12;" value="运营负责人确认推送&#xa;（仅高价值 / 高打扰场景）" vertex="1">
+          <mxGeometry height="62" width="300" x="720" y="814" as="geometry" />
+        </mxCell>
+        <mxCell id="910" edge="1" parent="200" source="210" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="211" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="911" edge="1" parent="200" source="211" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="212" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="912" edge="1" parent="200" source="212" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.4;strokeColor=#94A3B8;endArrow=blockThin;endFill=1;fontSize=12;fontColor=#475569;" target="213" value="否">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="913" edge="1" parent="200" source="212" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.6;strokeColor=#64748B;endArrow=blockThin;endFill=1;fontSize=12;fontColor=#475569;" target="220" value="是">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="349" />
+              <mxPoint x="450" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="914" edge="1" parent="200" source="220" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="221" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="915" edge="1" parent="200" source="221" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="222" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="916" edge="1" parent="200" source="222" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="223" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="917" edge="1" parent="200" source="223" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="224" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="918" edge="1" parent="200" source="224" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="225" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="919" edge="1" parent="200" source="225" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="226" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="920" edge="1" parent="200" source="226" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;fontSize=11;fontColor=#475569;" target="230" value="无争议">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="791" />
+              <mxPoint x="720" y="167" />
+              <mxPoint x="760" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="921" edge="1" parent="200" source="226" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.2;strokeColor=#F59E0B;dashed=1;endArrow=blockThin;endFill=1;fontSize=11;fontColor=#92400E;" target="235" value="争议时确认">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="922" edge="1" parent="200" source="235" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.2;strokeColor=#F59E0B;dashed=1;endArrow=blockThin;endFill=1;fontSize=11;fontColor=#92400E;" target="230" value="确认后继续">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="617" />
+              <mxPoint x="700" y="167" />
+              <mxPoint x="760" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="923" edge="1" parent="200" source="230" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="231" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="924" edge="1" parent="200" source="231" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="232" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="925" edge="1" parent="200" source="232" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;" target="233" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="926" edge="1" parent="200" source="233" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=1;jettySize=auto;html=1;strokeWidth=1.8;strokeColor=#64748B;endArrow=blockThin;endFill=1;fontSize=11;fontColor=#475569;" target="234" value="默认自动推送">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="927" edge="1" parent="200" source="233" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.2;strokeColor=#F59E0B;dashed=1;endArrow=blockThin;endFill=1;fontSize=11;fontColor=#92400E;" target="236" value="高价值 / 高打扰场景">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="928" edge="1" parent="200" source="236" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.2;strokeColor=#F59E0B;dashed=1;endArrow=blockThin;endFill=1;fontSize=11;fontColor=#92400E;" target="234" value="确认后推送">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="845" />
+              <mxPoint x="1040" y="743" />
+              <mxPoint x="980" y="743" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="300" parent="1" style="swimlane;rounded=1;arcSize=16;html=1;startSize=32;fillColor=#FBFCFE;strokeColor=#E2E8F0;fontColor=#334155;fontSize=14;container=1;" value="公共能力层" vertex="1">
+          <mxGeometry height="190" width="900" x="40" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="301" parent="300" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#64748B;" value="反思链路不仅沉淀经验，也反向增强公共能力" vertex="1">
+          <mxGeometry height="18" width="420" x="20" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="310" parent="300" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontSize=12;" value="公共 Skill 池" vertex="1">
+          <mxGeometry height="60" width="150" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="311" parent="300" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontSize=12;" value="公共 Tool 池" vertex="1">
+          <mxGeometry height="60" width="150" x="190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="312" parent="300" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFF7ED;strokeColor=#FED7AA;fontColor=#0F172A;fontSize=12;" value="规则库 / 口径库" vertex="1">
+          <mxGeometry height="60" width="150" x="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="313" parent="300" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#F5F3FF;strokeColor=#DDD6FE;fontColor=#0F172A;fontSize=12;" value="记忆体 / 历史案例" vertex="1">
+          <mxGeometry height="60" width="150" x="530" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="314" parent="300" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEF4FF;strokeColor=#A5B4FC;fontColor=#0F172A;fontSize=12;" value="Agent / 模板配置" vertex="1">
+          <mxGeometry height="60" width="170" x="700" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="400" parent="1" style="swimlane;rounded=1;arcSize=16;html=1;startSize=32;fillColor=#FBFCFE;strokeColor=#E2E8F0;fontColor=#334155;fontSize=14;container=1;" value="数据资产层" vertex="1">
+          <mxGeometry height="190" width="900" x="960" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="401" parent="400" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#64748B;" value="增强结果通过校验后进入正式资产体系" vertex="1">
+          <mxGeometry height="18" width="360" x="20" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="410" parent="400" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontSize=12;" value="原始资料资产" vertex="1">
+          <mxGeometry height="60" width="150" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="411" parent="400" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontSize=12;" value="标准数据资产" vertex="1">
+          <mxGeometry height="60" width="150" x="190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="412" parent="400" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontSize=12;" value="语义 / 指标资产" vertex="1">
+          <mxGeometry height="60" width="150" x="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="413" parent="400" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontSize=12;" value="数据服务资产" vertex="1">
+          <mxGeometry height="60" width="150" x="530" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="414" parent="400" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontSize=12;" value="目录 / 发布状态" vertex="1">
+          <mxGeometry height="60" width="170" x="700" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="906" edge="1" parent="1" source="116" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.2;strokeColor=#94A3B8;dashed=1;endArrow=blockThin;endFill=1;" target="210" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="924" />
+              <mxPoint x="820" y="198" />
+              <mxPoint x="930" y="198" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="929" edge="1" parent="1" source="210" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.4;strokeColor=#A78BFA;dashed=1;endArrow=blockThin;endFill=1;fontSize=11;fontColor=#7C3AED;" target="312" value="沉淀规则 / Skill / 记忆 / 案例">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="197" />
+              <mxPoint x="930" y="1130" />
+              <mxPoint x="550" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="930" edge="1" parent="1" source="210" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.4;strokeColor=#A78BFA;dashed=1;endArrow=blockThin;endFill=1;" target="310" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="931" edge="1" parent="1" source="210" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.4;strokeColor=#A78BFA;dashed=1;endArrow=blockThin;endFill=1;" target="313" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="932" edge="1" parent="1" source="210" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.4;strokeColor=#A78BFA;dashed=1;endArrow=blockThin;endFill=1;fontSize=11;fontColor=#7C3AED;" target="314" value="模板 / 配置优化">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="933" edge="1" parent="1" source="232" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.4;strokeColor=#94A3B8;dashed=1;endArrow=blockThin;endFill=1;fontSize=11;fontColor=#475569;" target="411" value="正式沉淀">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="930" />
+              <mxPoint x="1070" y="1130" />
+              <mxPoint x="1225" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="934" edge="1" parent="1" source="232" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.4;strokeColor=#94A3B8;dashed=1;endArrow=blockThin;endFill=1;" target="410" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="935" edge="1" parent="1" source="232" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.4;strokeColor=#94A3B8;dashed=1;endArrow=blockThin;endFill=1;" target="412" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="936" edge="1" parent="1" source="232" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.4;strokeColor=#94A3B8;dashed=1;endArrow=blockThin;endFill=1;" target="413" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="937" edge="1" parent="1" source="232" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.4;strokeColor=#94A3B8;dashed=1;endArrow=blockThin;endFill=1;" target="414" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="938" edge="1" parent="1" source="113" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.2;strokeColor=#94A3B8;dashed=1;endArrow=blockThin;endFill=1;fontSize=11;fontColor=#475569;" target="412" value="命中已有资产 / 能力">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="469" />
+              <mxPoint x="820" y="980" />
+              <mxPoint x="1315" y="980" />
+              <mxPoint x="1315" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="939" edge="1" parent="1" source="113" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=auto;html=1;strokeWidth=1.2;strokeColor=#94A3B8;dashed=1;endArrow=blockThin;endFill=1;fontSize=11;fontColor=#475569;" target="312" value="复用 Skill / 规则">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="469" />
+              <mxPoint x="780" y="980" />
+              <mxPoint x="550" y="980" />
+              <mxPoint x="550" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
